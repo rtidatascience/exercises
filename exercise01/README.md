@@ -11,8 +11,8 @@ Welcome to Exercise 01. This exercise provides a small SQLite database with some
 3. Save and commit your answers to your fork of the repository, and push them back to your personal GitHub account. You can then provide a link to that fork of the repository if you need to show a code example.
 4. Use the Internet as a resource to help you complete your work. We do it all the time.
 5. Comment your code so that when you look back at it in a year, you'll remember what you were doing.
-6. Trial and error is a great way to learn, so hop right in and give things a try!
-7. Have fun! There are many ways to approach and solve the problems presented in this exercise.
+6. There are many ways to approach and solve the problems presented in this exercise.
+7. Have fun!
 
 [SQLite Manager](https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/) is a fantastic free extension to Firefox that enables you to open and explore SQLite databases. We use it often.
 
