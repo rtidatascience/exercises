@@ -59,6 +59,8 @@ It contains a table, named `records`, that has 48842 US Census records with the 
 
 Inspection of the database will reveal the reference tables and the values that they contain, referenced by the foreign keys in the categorical fields of the `records` table. Basically, anywhere you see a field name above that ends with `_id`, there is a corresponding table in the database that contains the values associated with that categorical variable. Fields that contain continuous values, such as `age`, do not join to other tables.
 
+Some of the reference tables have an entry for a question mark `?` that represents missing data in `records`.
+
 #### The Target Variable
 
 The target variable is `over_50k` in the `records` table in the database.
