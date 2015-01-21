@@ -1,10 +1,10 @@
-# RTI CDS Analytics Exercise 01
+## RTI CDS Analytics Exercise 01
 
 Welcome to Exercise 01. This exercise provides a small SQLite database with some data derived from the 1996 US Census and a few analytic questions related to working with SQL and open source analysis packages.
 
 ----
 
-## Some guidance
+### Some guidance
 
 1. Use open source tools, such as Python, R, or Java. Do not use proprietary tools, such as SAS, SPSS, JMP, Tableau, or Stata. 
 2. Fork this repository to your personal GitHub account and clone the fork to your computer.
@@ -13,13 +13,13 @@ Welcome to Exercise 01. This exercise provides a small SQLite database with some
 5. Trial and error is a great way to learn, so hop right in and give things a try!
 6. Have fun! There are many ways to approach and solve the problems presented in this exercise.
 
-[SQLite Manager](https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/) is a fantastic free extension to Firefox that will allow you to open and explore SQLite databases. We use it often.
+[SQLite Manager](https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/) is a fantastic free extension to Firefox that enables you to open and explore SQLite databases. We use it often.
 
 Google will point you to popular libraries for connecting to SQLite databases from Python, R, etc.
 
 ----
 
-## The Task
+### The Task
 
 There are many things you can do with this dataset. Here are a few structured tasks to attempt:
 
@@ -36,7 +36,7 @@ Voila!
 
 ----
 
-## The Data
+### The Data
 
 This repository contains a file called `exercise01.sqlite`. It is a normalized relational [SQLite database](http://www.sqlite.org). 
 
@@ -59,7 +59,7 @@ It contains a table, named `records`, that has 48842 US Census records with the 
 
 Inspection of the database will reveal the reference tables and the values that they contain, referenced by the foreign keys in the categorical fields of the `records` table. Basically, anywhere you see a field name above that ends with `_id`, there is a corresponding table in the database that contains the values associated with that categorical variable. Fields that contain continuous values, such as `age`, do not join to other tables.
 
-### The Target Variable
+#### The Target Variable
 
 The target variable is `over_50k` in the `records` table in the database.
 
