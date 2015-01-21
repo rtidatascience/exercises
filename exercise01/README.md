@@ -44,17 +44,17 @@ It contains a table, named `records`, that has 48842 US Census records with the 
 
 - `id`: a unique id number for each record
 - `age`: a continuous variable representing an individual's age
-- `workclass_id`: a foreign key (fk) to the `workclasses` table, representing the broad class of occupation of an individual
-- `education_level_id`: an fk to the `education_levels` table, representing the highest level of education an individual received
+- `workclass_id`: foreign key to the `workclasses` table, representing the broad class of occupation of an individual
+- `education_level_id`: foreign key to the `education_levels` table, representing the highest level of education an individual received
 - `education_num`: a continuous variable representing an individual's current education level
-- `marital_status_id`:an fk to the `marital_statuses` table, representing an individual's marital status
-- `occupation_id`: an fk to the `occupations` table, representing an individual's occupation
-- `race_id`: an fk to the `races` table, representing an individual's race
-- `sex_id`: an fk to the `sexes` table, representing an individual's sex
+- `marital_status_id`: foreign key to the `marital_statuses` table, representing an individual's marital status
+- `occupation_id`: foreign key to the `occupations` table, representing an individual's occupation
+- `race_id`: foreign key to the `races` table, representing an individual's race
+- `sex_id`: foreign key to the `sexes` table, representing an individual's sex
 - `capital_gain`: a continuous variable representing post-social insurance income, in the form of capital gains.
 - `capital_loss`: a continuous variable representing post-social insurance losses, in the form of capital losses.
 - `hours_week`: a continuous variable representing the number of hours per week an individual worked.
-- `country_id`: an fk to the `countries` table, representing an individual's native country
+- `country_id`: foreign key to the `countries` table, representing an individual's native country
 - `over_50k`: a boolean variable and **the target variable**, representing whether the individual makes over $50,000/year. A value of 1 means that the person makes more than $50,000/year and a value of 0 means that the person makes less than $50,000/year.
 
 Inspection of the database will reveal the reference tables and the values that they contain, referenced by the foreign keys in the categorical fields of the `records` table. Basically, anywhere you see a field name above that ends with `_id`, there is a corresponding table in the database that contains the values associated with that categorical variable. Fields that contain continuous values, such as `age`, do not join to other tables.
