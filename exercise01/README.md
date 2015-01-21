@@ -55,7 +55,7 @@ It contains a table, named `records`, that has 48842 US Census records with the 
 - `capital_loss`: a continuous variable representing post-social insurance losses, in the form of capital losses.
 - `hours_week`: a continuous variable representing the number of hours per week an individual worked.
 - `country_id`: foreign key to the `countries` table, representing an individual's native country
-- `over_50k`: a boolean variable and **the target variable**, representing whether the individual makes over $50,000/year. A value of 1 means that the person makes more than $50,000/year and a value of 0 means that the person makes less than $50,000/year.
+- `over_50k`: a boolean variable and **the target variable**, representing whether the individual makes over $50,000/year. A value of 1 means that the person makes greater than $50,000/year and a value of 0 means that the person makes less than or equal to $50,000/year.
 
 Inspection of the database will reveal the reference tables and the values that they contain, referenced by the foreign keys in the categorical fields of the `records` table. Basically, anywhere you see a field name above that ends with `_id`, there is a corresponding table in the database that contains the values associated with that categorical variable. Fields that contain continuous values, such as `age`, do not join to other tables.
 
