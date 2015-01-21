@@ -27,10 +27,11 @@ There are many things you can do with this dataset. Here are a few structured ta
 1. Write a SQL query that creates a consolidated dataset from the normalized tables in the database. In other words, write a SQL query that "flattens" the database to a single table.
 2. Export the "flattened" table to a CSV file.
 3. Import the "flattened" table (or CSV file) into your open source analytic environment of choice (R, Python, Java, etc.) and stage it for analysis.
-4. Split the data into training, validation, and test data sets. 
-5. Develop a model that predicts whether individuals, based on the census variables provided, make over $50,000/year. Use `over_50k` as the target variable. 
-6. Generate a chart that you feel conveys 1 or more important relationships in the data.
-7. Describe your methodology and results in 1/2 page of writing.
+4. Perform some simple exploratory analysis and generate summary statistics to get a sense of what is in the data.
+5. Split the data into training, validation, and test data sets. 
+6. Develop a model that predicts whether individuals, based on the census variables provided, make over $50,000/year. Use `over_50k` as the target variable. 
+7. Generate a chart that you feel conveys 1 or more important relationships in the data.
+8. Describe your methodology and results in 1/2 page of writing.
 
 Voila!
 
