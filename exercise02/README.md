@@ -32,7 +32,11 @@ There are 144 files in the following format:
 
 ### The Task
 
-This data is ripe for exploration. Working with the files provided, here are a few structured tasks that you can attempt:
+**Explore the data and prepare a 1/2 to 1 page written overview of your findings.**
+
+#### Possible approaches
+
+This data is ripe for exploration. Working with the files provided, here are a few structured tasks that you can attempt. Note: these are suggested data exploration tasks. Feel free to complete none, some, or all of these steps as you explore the data.
 
 1. Determine what fields you have available for each incident record.
 2. Prepare descriptive statistics that convey an overview of the data.
