@@ -34,6 +34,11 @@ There are 144 files in the following format:
 
 **Explore the data and prepare a 1/2 to 1 page written overview of your findings.**
 
+_Additional Context:_
+
+* Assume the audience for your write-up is a non-technical stakeholder. 
+* Assume the audience for your code is a colleague who may need to read or modify it in the future. 
+
 #### Possible approaches
 
 This data is ripe for exploration. Working with the files provided, here are a few structured tasks that you can attempt. Note: these are suggested data exploration tasks. Feel free to complete none, some, or all of these steps as you explore the data.
