@@ -33,6 +33,12 @@ There are many things you can do with this dataset. Here are a few structured ta
 6. Develop a model that predicts whether individuals, based on the census variables provided, make over $50,000/year. Use `over_50k` as the target variable. 
 7. Generate a chart that you feel conveys 1 or more important relationships in the data.
 8. Describe your methodology and results in 1/2 page of writing.
+    * Include the chart(s) generated in Step 7 as part of your write-up. If neccesary, explain how the chart(s) informs your approach. 
+
+_Additional Context:_
+
+* Assume the audience for your write-up is a non-technical stakeholder. 
+* Assume the audience for your code is a colleague who may need to read or modify it in the future.
 
 Voila!
 
